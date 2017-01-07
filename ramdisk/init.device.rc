@@ -1,5 +1,5 @@
 service stml0xx /system/bin/stml0xx_wrapper.sh
-    class late_start
+    class main
     user compass
     group compass misc input
     oneshot
